@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0FFF0"
+    android:background="@color/Azure"
     tools:context=".MainActivity">
 
     <ImageView
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="4dp"
         android:layout_below="@id/img_moto"
-        android:background="@android:color/black" />
+        android:background="@color/Black" />
 
     <TextView
         android:id="@+id/txt_titulo"
@@ -27,7 +27,7 @@
         android:layout_below="@id/txt_linha1"
         android:text="@string/titulo"
         android:textAlignment="center"
-        android:textColor="#8B0000"
+        android:textColor="@color/DarkRed"
         android:textSize="25sp"
         android:textStyle="bold|italic" />
 
@@ -38,8 +38,8 @@
         android:layout_below="@id/txt_titulo"
         android:text="@string/descricao"
         android:textAlignment="center"
-        android:textColor="#191970"
-        android:textSize="15sp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="@dimen/dimensao_texto_padrao"
         android:textStyle="bold" />
 
     <TextView
@@ -49,7 +49,8 @@
         android:layout_below="@id/txt_descricao"
         android:text="@string/complemento_descricao"
         android:textAlignment="center"
-        android:textColor="#008000"
+        android:textColor="@color/Green"
+        android:textSize="@dimen/dimensao_texto_padrao"
         android:textStyle="bold" />
 
     <TextView
@@ -58,7 +59,7 @@
         android:layout_height="4dp"
         android:layout_below="@id/txt_descricao_complemento"
         android:layout_marginTop="3dp"
-        android:background="@android:color/black" />
+        android:background="@color/Black" />
 
     <RelativeLayout
         android:id="@+id/relative_img"
@@ -101,11 +102,12 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/relative_text_view"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:layout_below="@id/txt_linha2"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="4dp"
         android:layout_toRightOf="@+id/relative_img">
 
         <TextView
@@ -113,8 +115,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/telefone"
-            android:textColor="@android:color/black"
-            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao"
             android:textStyle="bold" />
 
         <TextView
@@ -124,8 +126,8 @@
             android:layout_below="@id/txt_telefone"
             android:layout_marginTop="5dp"
             android:text="@string/email"
-            android:textColor="@android:color/black"
-            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao"
             android:textStyle="bold" />
 
         <TextView
@@ -135,8 +137,8 @@
             android:layout_below="@id/txt_email"
             android:layout_marginTop="5dp"
             android:text="@string/endereco"
-            android:textColor="@android:color/black"
-            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao"
             android:textStyle="bold" />
 
         <TextView
@@ -146,8 +148,8 @@
             android:layout_below="@id/txt_endereco"
             android:layout_marginTop="5dp"
             android:text="@string/funcionamento"
-            android:textColor="@android:color/black"
-            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao"
             android:textStyle="bold" />
 
         <TextView
@@ -155,24 +157,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_funcionamento"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
             android:text="@string/horario_semana"
-            android:textColor="@android:color/black"
-            android:textSize="13sp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao"
             android:textStyle="normal" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_horario"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
             android:text="@string/horario_fim_de_semana"
-            android:textColor="@android:color/black"
-            android:textSize="13sp" />
-
-
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dimensao_texto_padrao" />
     </RelativeLayout>
 </RelativeLayout>
 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimensao_texto_padrao">15sp</dimen>
+</resources>
