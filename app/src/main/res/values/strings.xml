@@ -7,6 +7,6 @@
     <string name="email">E-mail: FariasCustom@gmail.com</string>
     <string name="endereco">Avenida: Paulista, 1850 - Consolação.</string>
     <string name="funcionamento">Horário de Funcionamento:</string>
-    <string name="horario_semana">* Segunda à Sexta das 08:00 às 18:00hs</string>
-    <string name="horario_fim_de_semana">* Sábado das 08:00 às 12:00hs</string>
+    <string name="horario_semana">* Segunda à Sexta das 07:30 às 18:00hs</string>
+    <string name="horario_fim_de_semana">* Sábado das 08:00 às 13:00hs</string>
 </resources>
