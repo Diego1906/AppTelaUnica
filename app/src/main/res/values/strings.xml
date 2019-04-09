@@ -1,11 +1,11 @@
-<resources>
+﻿<resources>
     <string name="app_name">AppTelaUnica</string>
     <string name="titulo">Farias Custom Motorcicle</string>
     <string name="descricao">Somos uma oficina especializada em restauração e customização.</string>
     <string name="complemento_descricao">Atendemos todo o Brasil.</string>
     <string name="telefone">Telefone: (11) 4748-6633</string>
     <string name="email">E-mail: FariasCustom@gmail.com</string>
-    <string name="endereco">Avenida: Paulista, 1850 - Consolação</string>
+    <string name="endereco">Avenida: Paulista, 1850 - Consolação.</string>
     <string name="funcionamento">Horário de Funcionamento:</string>
     <string name="horario_semana">* Segunda à Sexta das 08:00 às 18:00hs</string>
     <string name="horario_fim_de_semana">* Sábado das 08:00 às 12:00hs</string>
